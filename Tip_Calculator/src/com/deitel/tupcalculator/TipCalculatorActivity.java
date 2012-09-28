@@ -115,7 +115,7 @@ public class TipCalculatorActivity extends Activity {
     	customTipTextView.setText(currentCustomPercent + "%");
     	
     	// calculate the custom tip amount
-    	double customTipAmount = currentBillTotal * currentCustomPercent * 0.1;
+    	double customTipAmount = currentBillTotal * currentCustomPercent * 0.01;
     	
     	// calculate the total bill, including the custom tip
     	double customTotalAmount = currentBillTotal + customTipAmount;
